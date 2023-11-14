@@ -10,5 +10,5 @@ case $1 in
 esac
 
 pactl set-sink-volume @DEFAULT_SINK@ $target
-bash $DWM/statusbar/statusbar.sh update vol
-bash $DWM/statusbar/packages/vol.sh notify 
+bash ~/dwm/statusbar/statusbar.sh update vol
+bash ~/dwm/statusbar/packages/vol.sh notify 
